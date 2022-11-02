@@ -1,0 +1,67 @@
+name: Arcade
+author: MCMagicDev
+version: 1.9.1
+description: MCMagic Arcade Plugin
+depend: [MCMagicCore]
+main: us.mcmagic.arcade.Arcade
+commands:
+   bc:
+      description: Broadcast to the whole server!
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   day:
+      description: Set time to day
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   noon:
+      description: Set time to noon
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   night:
+      description: Set time to night
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   parkour:
+      description: Modify Parkours
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   fly:
+      description: Enable fly
+      permission: arcade.fly
+      permission-message: §4You do not have permission to use this command!
+   fw:
+      description: Shoot a firework
+      permission: arcade.fw
+      permission-message: §4You do not have permission to use this command!
+   helpop:
+      description: Message online staff
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+      aliases: ac
+   hub:
+      description: Default lobby command
+      permission: lm.lobby
+      permission-message: §4You do not have permission to use this command!
+      aliases: lobby
+   sethub:
+      description: Set lobbies
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+      aliases: setlobby
+   vanish:
+      description: Hide from other players!
+      permission: vanish.standard
+      permission-message: §4You do not have permission to use this command!
+      aliases: v
+   gamesign:
+      description: Default command for Game Signs
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   lb:
+      description: Default leaderboard command
+      permission: arcade.bypass
+      permission-message: §4You do not have permission to use this command!
+   pt:
+      description: Default particle commnad
+      permission: lm.lobby
+      permission-message: §4You do not have permission to use this command!
